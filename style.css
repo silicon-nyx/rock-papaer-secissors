@@ -1,0 +1,46 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap");
+
+/* Css Reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  background: #333;
+  min-height: 100vh;
+}
+.container {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
+  width: 420px;
+}
+.container .game-name {
+  color: orangered;
+  margin-bottom: 15px;
+  text-align: start;
+  text-decoration: underline;
+}
+.selection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.selection button {
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: rgb(33, 202, 202);
+  background: #000;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 25px;
+  width: 120px;
+}
